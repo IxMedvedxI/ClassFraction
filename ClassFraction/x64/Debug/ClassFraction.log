@@ -1,0 +1,12 @@
+﻿  Fraction.cpp
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(86): warning C4172: возвращение адреса локальной или временной переменной : comp
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(96): warning C4172: возвращение адреса локальной или временной переменной : comp
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(104): warning C4172: возвращение адреса локальной или временной переменной : comp
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(115): warning C4172: возвращение адреса локальной или временной переменной : comp
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(122): warning C4172: возвращение адреса локальной или временной переменной : comp
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(138): warning C4172: возвращение адреса локальной или временной переменной : comp
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(147): warning C4172: возвращение адреса локальной или временной переменной : comp
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(131): warning C4172: возвращение адреса локальной или временной переменной : comp
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(278): warning C4172: возвращение адреса локальной или временной переменной : cop
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(285): warning C4172: возвращение адреса локальной или временной переменной : cop
+  ClassFraction.vcxproj -> C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\x64\Debug\ClassFraction.exe

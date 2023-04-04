@@ -46,8 +46,8 @@ int Fraction::getDenominator()
 
 void Fraction::simple()
 {
-	int n = a;
-	int d = b;
+	int n = abs(a);
+	int d = abs(b);
 	int nod;
 	while (n != 0 and d != 0) {
 		if (n > d){
@@ -91,7 +91,7 @@ Fraction& Fraction::operator+(const Fraction& fract)
 	Fraction comp(*this);
 	comp.a *= fract.b;
 	comp.b *= fract.b;
-	comp.a += fract.a * fract.b;
+	comp.a += fract.a * b;
 	comp.simple();
 	return comp;
 }
@@ -110,7 +110,7 @@ Fraction& Fraction::operator-(const Fraction& fract)
 	Fraction comp(*this);
 	comp.a *= fract.b;
 	comp.b *= fract.b;
-	comp.a -= fract.a * fract.b;
+	comp.a -= fract.a * b;
 	comp.simple();
 	return comp;
 }
@@ -156,9 +156,10 @@ Fraction& Fraction::operator+=(int number)
 
 Fraction& Fraction::operator+=(const Fraction& fract)
 {
+	int c = b;
 	a *= fract.b;
 	b *= fract.b;
-	a += fract.a * fract.b;
+	a += fract.a * c;
 	simple();
 	return *this;
 }
@@ -172,9 +173,10 @@ Fraction& Fraction::operator-=(int number)
 
 Fraction& Fraction::operator-=(const Fraction& fract)
 {
+	int c = b;
 	a *= fract.b;
 	b *= fract.b;
-	a -= fract.a * fract.b;
+	a -= fract.a * c;
 	simple();
 	return *this;
 }
