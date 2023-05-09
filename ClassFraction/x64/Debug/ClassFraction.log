@@ -1,8 +1,6 @@
 ﻿  ClassFraction.cpp
-C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\MyList.h(95,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\MyList.h(93): message : во время компиляции функции-члена класс шаблон "void MyList<int>::rands(void)"
-C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\ClassFraction.cpp(20): message : выполняется компиляция ссылки на экземпляр шаблон функции "void MyList<int>::rands(void)"
-C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\ClassFraction.cpp(9): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "MyList<int>"
-  MyList.cpp
-  Создание кода...
-  ClassFraction.vcxproj -> C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\x64\Debug\ClassFraction.exe
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction\ClassFraction\MyList.h(111,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction\ClassFraction\MyList.h(105): message : во время компиляции функции-члена класс шаблон "void MyList<Fraction>::rands(void)"
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction\ClassFraction\ClassFraction.cpp(34): message : выполняется компиляция ссылки на экземпляр шаблон функции "void MyList<Fraction>::rands(void)"
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction\ClassFraction\ClassFraction.cpp(23): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "MyList<Fraction>"
+  ClassFraction.vcxproj -> C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction\x64\Debug\ClassFraction.exe

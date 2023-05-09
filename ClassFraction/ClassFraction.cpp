@@ -24,10 +24,14 @@ int main()
     Fraction dr1(3, 4);
     Fraction dr2(2, 3);
     Fraction dr3(1, 7);
+    Fraction dr4(14, 23);
+    Fraction dr5(18, 23);
     flist.addbegin(dr1);
     flist.addend(dr2);
     flist.addbegin(dr3);
-    list.rands();
+    flist.addbegin(dr4);
+    flist.addend(dr5);
+    flist.rands();
     cout << flist<<endl;
 
 
