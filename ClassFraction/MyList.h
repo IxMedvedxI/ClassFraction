@@ -118,7 +118,7 @@ public:
 			swap(arr[i], arr[rand() % (i + 1)]);
 		}
 		list = head;
-		for (int i = 0; list != NULL; list = list->next) {//идем по списку и записываем из массив
+		for (int i = 0; list != NULL; list = list->next) {//идем по списку и записываем из массива
 			list->info = arr[i];
 			i++;
 		}
