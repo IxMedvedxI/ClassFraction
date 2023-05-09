@@ -1,9 +1,55 @@
 ﻿
 #include <iostream>
 #include "Fraction.h"
+#include "MyList.h"
 using namespace std;
 int main()
 {
+    //примеры с числами
+    MyList<int> list(2);
+    list.addend(3);
+    list.addbegin(1);
+    cout << list << endl;
+    cout <<list.getdelstart() << " " << list.getdelend() << endl;
+    cout << list <<" Len:" << list.len()<<endl;
+    list.addend(3);
+    list.addbegin(1);
+    for (int i = 4; i < 20; i++) {
+        list.addend(i);
+    }
+    list.rands();
+    cout << list<<endl;
+
+    MyList<Fraction> flist;
+    Fraction dr1(3, 4);
+    Fraction dr2(2, 3);
+    Fraction dr3(1, 7);
+    flist.addbegin(dr1);
+    flist.addend(dr2);
+    flist.addbegin(dr3);
+    list.rands();
+    cout << flist<<endl;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
     Fraction dr1;
     Fraction dr2;
     Fraction dr3;
@@ -84,7 +130,7 @@ int main()
     //==
     cout << "\n==";
     cout << "\n" << (dr1==dr2) << "\n";
-
+*/
 
 }
 

@@ -1,12 +1,8 @@
-﻿  Fraction.cpp
-C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(86): warning C4172: возвращение адреса локальной или временной переменной : comp
-C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(96): warning C4172: возвращение адреса локальной или временной переменной : comp
-C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(104): warning C4172: возвращение адреса локальной или временной переменной : comp
-C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(115): warning C4172: возвращение адреса локальной или временной переменной : comp
-C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(122): warning C4172: возвращение адреса локальной или временной переменной : comp
-C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(138): warning C4172: возвращение адреса локальной или временной переменной : comp
-C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(147): warning C4172: возвращение адреса локальной или временной переменной : comp
-C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(131): warning C4172: возвращение адреса локальной или временной переменной : comp
-C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(278): warning C4172: возвращение адреса локальной или временной переменной : cop
-C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\Fraction.cpp(285): warning C4172: возвращение адреса локальной или временной переменной : cop
+﻿  ClassFraction.cpp
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\MyList.h(95,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\MyList.h(93): message : во время компиляции функции-члена класс шаблон "void MyList<int>::rands(void)"
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\ClassFraction.cpp(20): message : выполняется компиляция ссылки на экземпляр шаблон функции "void MyList<int>::rands(void)"
+C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\ClassFraction\ClassFraction.cpp(9): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "MyList<int>"
+  MyList.cpp
+  Создание кода...
   ClassFraction.vcxproj -> C:\Users\maksi\OneDrive\Рабочий стол\ClassFraction-master\x64\Debug\ClassFraction.exe
